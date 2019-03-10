@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.image-box {
+    /* flex-grow: 1; */
+    background-image: url("2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 600px;
+    margin: 20px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.image-tile {
+    /* border: 1px solid black; */
+}
+
+.timer-box {
+    width: 20px;
+    margin: auto;
+    height: 750px;
+}
+
+.timer-line {
+    background-color: #778FD5;
+}
+
+.timer {
+    border: 1px solid #778FD5;
+    align-self: flex-end;
+}
+
+.cross {
+    font-size: large;
+}
+
+.puzzle-box {
+    list-style-type: none;
+}
+/* 
+background: #DCDCDC;
+background: -webkit-linear-gradient(top left, #DCDCDC, #FDFDFD);
+background: -moz-linear-gradient(top left, #DCDCDC, #FDFDFD);
+background: linear-gradient(top left, #DCDCDC, #FDFDFD); */
